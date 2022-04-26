@@ -14,7 +14,6 @@ export default function Home() {
       <QRCodeSVG
         value={qrcode}
         size="250"
-        logoWidth="100"
         fgColor="#000"
         ref={qrcodeRef}
       />
