@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+input{
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(192, 189, 189);
+  padding: 0 0.4rem 0 0.4rem;
+  margin-bottom: 3rem;
+}
+
+.title{
+  margin: 5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
